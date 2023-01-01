@@ -20,7 +20,7 @@
         <div class="container_1">
             <div class="placeholder">
                 <div class="backbutton">
-                    <a href="../index.html" class="backbtn"><i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>Go Back</a>
+                    <button class="backbtn" id="go-back"><i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>Go Back</buttom>
                 </div>
                 <!-- <section class="logo">
                     <a href="../index.html"><img src="../img/logo.webp" alt="logo"></img></a>
@@ -106,7 +106,7 @@
                 <br>
                 <p>Link Pendaftaran : <a href="#" class="url">Klik Disini</a></p>
                 <br>
-                <p>Pertanyaan lebih lanjut bisa menghubungi <i>Contact Person</i> berikut :</p>
+                <p style="font-weight: 200; font-size: 1.5rem;">Pertanyaan lebih lanjut bisa menghubungi <i>Contact Person</i> berikut :</p>
                 <div class="btncontainer">
                     <a href="https://wa.me/6287729383251" class="btnwa" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i> Kak Sabrina</a>
                     <a href="https://wa.me/6285222330503" class="btnwa" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i> Kak Aditya</a>
@@ -172,6 +172,9 @@
             navbar = document.querySelector(".menu");
             navbar.classList.toggle("active");
         }
+        document.getElementById('go-back').addEventListener('click', () => {
+            history.back();
+        });
     </script>
 </body>
 
