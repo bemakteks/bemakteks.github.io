@@ -335,7 +335,6 @@ body {
 .thumbnail {
     width: 100%;
     height: 45vh;
-    background-image: url(../img/futsal.jpg);
     background-size: cover;
     background-position: 0;
     background-repeat: no-repeat;
