@@ -873,7 +873,7 @@ body {
         font-family: 'Inter', sans-serif;
         font-weight: 600;
         font-size: 0.5rem;
-        padding: 0.8rem 8rem;
+        padding: 0.8rem 1.5rem;
         border-radius: 5rem;
         transition: 0.7s;
     }
@@ -884,9 +884,13 @@ body {
     }
 
     .menu.active ul li a {
-        font-size: 1.1rem;
+        font-size: 1rem;
+        text-align: center;
     }
 
+    .ketentuan span button {
+        scale: 80%;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -916,6 +920,7 @@ body {
     .menu.active {
         height: 50vh;
         opacity: 0.96;
+
     }
 
     .menu ul {
