@@ -281,6 +281,10 @@ body {
     scale: 90%;
 }
 
+.logo a img {
+    scale: 85%;
+}
+
 /* navigation end */
 /* hero start */
 .hero {

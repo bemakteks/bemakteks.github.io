@@ -293,7 +293,6 @@ body {
     transition: 0.4s;
     border-radius: 1.2rem;
 }
-
 .navbar a:hover {
     background-color: rgb(190, 190, 190);
     color: #101010;
@@ -329,6 +328,9 @@ body {
     padding: 0 15px 0 0;
 }
 
+.logo a img{
+    scale: 85%;
+}
 /* navigation end */
 
 /* Thumbnail Start */
