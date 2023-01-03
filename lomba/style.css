@@ -293,6 +293,7 @@ body {
     transition: 0.4s;
     border-radius: 1.2rem;
 }
+
 .navbar a:hover {
     background-color: rgb(190, 190, 190);
     color: #101010;
@@ -328,9 +329,10 @@ body {
     padding: 0 15px 0 0;
 }
 
-.logo a img{
+.logo a img {
     scale: 85%;
 }
+
 /* navigation end */
 
 /* Thumbnail Start */
@@ -338,7 +340,6 @@ body {
     width: 100%;
     height: 45vh;
     background-size: cover;
-    background-position: 0;
     background-repeat: no-repeat;
 }
 
@@ -398,6 +399,13 @@ body {
     content: "\25CF   ";
 }
 
+.isi ol li {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    list-style-position: inside;
+    margin: 0.7rem 0;
+}
+
 .url {
     color: blue
 }
@@ -429,6 +437,13 @@ body {
     background: linear-gradient(180deg, rgb(79, 247, 140) 0%, rgb(35, 206, 97) 100%);
     scale: 102%;
 }
+
+.isi table {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+
+
 
 /* Main End */
 
@@ -685,6 +700,12 @@ body {
         padding-left: 1em;
         text-indent: -0.825em;
     }
+
+    .isi table {
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.8rem;
+    }
+
 
 }
 
