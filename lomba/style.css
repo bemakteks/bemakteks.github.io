@@ -393,6 +393,7 @@ body {
     margin-left: 3px;
     padding-left: 1em;
     text-indent: -0.825em;
+    line-height: 1.6;
 }
 
 .isi ul li:before {
