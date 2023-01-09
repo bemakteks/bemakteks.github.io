@@ -403,6 +403,7 @@ body {
     font-size: 1.3rem;
     margin: 0.7rem 0;
     list-style-position: outside;
+    line-height: 1.4;
 }
 
 .isi span {
