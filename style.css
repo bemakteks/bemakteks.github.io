@@ -511,20 +511,14 @@ body {
     padding-top: 2rem;
 }
 
-.caradaftar ol {
-    margin-left: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.7rem;
-    justify-content: flex-start;
-    list-style: decimal;
+.caradaftar p {
+    font-size: 1.2rem;
+    line-height: 1.9;
+    text-align: justify;
 }
 
-.caradaftar ol li {
-    text-align: start;
-    font-family: "Poppins", sans-serif;
-    font-size: 1.2rem;
-
+.caradaftar p a {
+    color: rgb(133, 33, 33);
 }
 
 /* Pendaftaram Emd */
