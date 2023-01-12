@@ -274,7 +274,6 @@ body {
 .navbar a:hover {
     background-color: rgb(190, 190, 190);
     color: #101010;
-    font-size: 1.015rem
 }
 
 .navbar a:active {
