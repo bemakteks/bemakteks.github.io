@@ -163,6 +163,10 @@ body {
     background-image: url(img/interlaced.png);
 }
 
+#comingsoon {
+    width: 45%;
+}
+
 /* navigation start */
 .nav {
     background-color: #ecececda;
@@ -812,6 +816,11 @@ body {
 
 /* media queries */
 @media only screen and (max-width: 768px) {
+
+    #comingsoon {
+        width: 80%;
+    }
+    
     .container_1 {
         width: 85%;
     }
@@ -888,6 +897,9 @@ body {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    #comingsoon {
+        width: 25%;
+    }
     .hambar {
         display: flex;
     }
