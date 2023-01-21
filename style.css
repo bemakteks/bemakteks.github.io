@@ -820,7 +820,7 @@ body {
     #comingsoon {
         width: 80%;
     }
-    
+
     .container_1 {
         width: 85%;
     }
@@ -893,6 +893,7 @@ body {
     .ketentuan span button {
         scale: 80%;
     }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -900,6 +901,7 @@ body {
     #comingsoon {
         width: 25%;
     }
+
     .hambar {
         display: flex;
     }
@@ -1005,6 +1007,7 @@ body {
     .navbar {
         width: 50%;
     }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
