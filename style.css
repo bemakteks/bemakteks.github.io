@@ -393,6 +393,100 @@ body {
     letter-spacing: 3px;
 }
 
+.sec-reverse {
+    display: flex;
+    justify-content: end;
+}
+
+.sec-left {
+    height: 5rem;
+    width: 50%;
+    transform: translateX(2.5em);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sec-right {
+    height: 5rem;
+    width: 50%;
+    transform: translateX(-2.5em);
+    display: flex;
+    flex-direction: row;
+}
+
+.sec-circ {
+    background-color: white;
+    height: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+    font-weight: 600;
+}
+
+.sec h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+}
+
+.sec-textleft {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.sec-textright {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.sec-line {
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.sec-line span {
+    height: 100%;
+    width: 0.7rem;
+    background-color: salmon;
+    transform: scaleY(2);
+    z-index: -6;
+}
+
+.circ {
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.circ span {
+    height: 20%;
+    aspect-ratio: 1/1;
+    background-color: salmon;
+    border-radius: 50%;
+}
+
 /* Timeline ENd */
 
 /* Lomba Start */
@@ -894,6 +988,27 @@ body {
         scale: 80%;
     }
 
+    .timeline_main {
+        position: relative;
+        top: -5rem;
+        margin-top: 0;
+    }
+
+    .sec h3 {
+        font-size: 1rem;
+    }
+
+    .sec h4 {
+        font-size: 1rem;
+    }
+
+    .sec-line {
+        height: 3rem;
+    }
+
+    .timeline_main {
+        scale: 80%;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -977,7 +1092,7 @@ body {
     }
 
     .hero img {
-        max-width: 85%;
+        max-width: 70%;
     }
 
     .title h1 {
