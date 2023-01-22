@@ -988,11 +988,7 @@ body {
         scale: 80%;
     }
 
-    .timeline_main {
-        position: relative;
-        top: -1rem;
-        margin-top: 0;
-    }
+    .timeline_main {}
 
     .sec h3 {
         font-size: 1rem;
