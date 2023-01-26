@@ -347,11 +347,16 @@ body {
     flex-wrap: wrap;
     background-color: white;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .support .sup {
     width: 10%;
+    margin: 2rem;
+}
+
+.support div:nth-child(3) img {
+    width: 70%;
 }
 
 .sup img {
@@ -646,7 +651,7 @@ body {
     color: rgb(133, 33, 33);
 }
 
-/* Pendaftaram Emd */
+/* Pendaftaram End */
 
 /* Contact Start */
 .contact {
@@ -1181,6 +1186,18 @@ body {
     .timeline_main {
         scale: 80%;
     }
+
+    .support {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .support .sup {
+        display: flex;
+        width: 30%;
+        margin: 2rem;
+        justify-content: center;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -1295,6 +1312,11 @@ body {
         width: 50%;
     }
 
+    .support .sup {
+        width: 20%;
+        margin: 2rem;
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -1360,6 +1382,11 @@ body {
 
     .btn_wa {
         scale: 85%;
+    }
+
+    .support .sup {
+        width: 10%;
+        margin: 2rem;
     }
 
 }
