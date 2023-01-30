@@ -1145,7 +1145,7 @@ body {
     }
 
     .menu.active {
-        padding-top: 2rem;
+        padding-top: 2.5rem;
         height: 50vh;
         opacity: 0.96;
     }
@@ -1217,10 +1217,6 @@ body {
         margin: 2rem;
         justify-content: center;
     }
-    .alert p {
-        font-size: 1rem;
-        text-align: center;
-    }
 
 }
 
@@ -1255,7 +1251,7 @@ body {
     .menu.active {
         height: 50vh;
         opacity: 0.96;
-        padding-top: 2rem;
+        padding-top: 2.5rem;
     }
 
     .menu ul {

@@ -336,6 +336,23 @@ body {
 
 /* navigation end */
 
+.alert {
+    position: fixed;
+    display: flex;
+    z-index: 500;
+    background-color: #ffd34e;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.alert p {
+    width: 80%;
+    text-align: center;
+}
+
+
 /* Thumbnail Start */
 .thumbnail {
     width: 100%;
