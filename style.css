@@ -288,7 +288,25 @@ body {
     scale: 85%;
 }
 
+
 /* navigation end */
+
+.alert {
+    position: fixed;
+    display: flex;
+    z-index: 500;
+    background-color: #ffd34e;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.alert p {
+    width: 80%;
+    text-align: center;
+}
+
 /* hero start */
 .hero {
     display: flex;
@@ -1127,6 +1145,7 @@ body {
     }
 
     .menu.active {
+        padding-top: 2rem;
         height: 50vh;
         opacity: 0.96;
     }
@@ -1198,6 +1217,11 @@ body {
         margin: 2rem;
         justify-content: center;
     }
+    .alert p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -1231,7 +1255,7 @@ body {
     .menu.active {
         height: 50vh;
         opacity: 0.96;
-
+        padding-top: 2rem;
     }
 
     .menu ul {
@@ -1266,6 +1290,7 @@ body {
     .menu.active ul li a {
         font-size: 1.1rem;
     }
+
 
     .container_2 {
         display: flex;
