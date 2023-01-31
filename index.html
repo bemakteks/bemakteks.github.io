@@ -65,8 +65,9 @@
         </div>
     </div>
 
-    <div class="alert">
-        <p>Pendaftaran dan Pengumpulan Karya Lomba <a href="lomba/fashion" style="color: black;">Fashion Desain</a> <em>Telah Ditutup</em></p>
+    <div class="alert" id="alert">
+        <p>Pendaftaran dan Pengumpulan Karya Fashion Desain Telah <strong>Ditutup</strong></p>
+        <span class="close">&#10006;</span>
     </div>
 
     <section class="hero" id="home" style="scroll-margin-top: 4rem;">
@@ -350,6 +351,10 @@
         hambar.onclick = function () {
             navbar = document.querySelector(".menu");
             navbar.classList.toggle("active");
+        }
+
+        document.querySelector(".close").onclick = function () {
+            document.querySelector(".alert").style.display = "none";
         }
     </script>
     <script src="https://cdn.logwork.com/widget/countdown.js"></script>

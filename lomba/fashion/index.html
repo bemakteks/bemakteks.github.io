@@ -31,8 +31,9 @@
         </div>
         <div class="flexmenu">
         </div>
-        <div class="alert">
-            <p>Pendaftaran dan Pengumpulan Karya Lomba Fashion Desain <em>Telah Ditutup</em></p>
+        <div class="alert" id="alert">
+            <p>Pendaftaran dan Pengumpulan Karya Fashion Desain Telah <strong>Ditutup</strong></p>
+            <span class="close">&#10006;</span>
         </div>
     </div>
 
@@ -203,14 +204,11 @@
     </section>
 
     <script>
-        hambar = document.querySelector(".hambar");
-        hambar.onclick = function () {
-            navbar = document.querySelector(".menu");
-            navbar.classList.toggle("active");
-        }
-        document.getElementById('go-back').addEventListener('click', () => {
-            history.back();
-        });
+        const button = document.querySelector('.close');
+        button.addEventListener('click', () => {
+            const alert = document.querySelector('.alert');
+            alert.style.display = 'none';
+        })
     </script>
 </body>
 

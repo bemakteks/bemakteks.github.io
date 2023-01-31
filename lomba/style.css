@@ -429,11 +429,26 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0.5rem;
+    align-items: center;
 }
 
 .alert p {
     width: 80%;
     text-align: center;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    padding: 6px 10px;
+    transform: translate(0%, -50%);
+    transition: 0.2s;
+}
+
+.close:hover {
+    background-color: rgba(0, 0, 0, 0.103);
 }
 
 
@@ -600,10 +615,6 @@ body {
     font-weight: 200;
 }
 
-.isi table tr td {
-    /* padding-top: 1rem; */
-    /* padding-right: 20px; */
-}
 
 
 .img-cont {
