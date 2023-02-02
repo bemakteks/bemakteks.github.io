@@ -312,7 +312,7 @@ body {
     cursor: pointer;
     position: absolute;
     top: 50%;
-    right: 15%;
+    right: 6%;
     padding: 6px 10px;
     transform: translate(0%, -50%);
     transition: 0.2s;
