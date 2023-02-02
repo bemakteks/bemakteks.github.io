@@ -31,8 +31,12 @@
         </div>
         <div class="flexmenu">
         </div>
+        <div class="alert" id="alert" style="background-color: #ffc107;">
+            <p style="color: black;">H-2 Penutupan Pendaftaran | Pendaftaran Lomba Akan Ditutup Pada 4 Februari 2023</p>
+            <span class="close" style="color: black;">&#10006;</span>
+        </div>
     </div>
-    
+
 
     <section class="thumbnail" style="background-image: url(../../img/batik.jpg); background-position-y: -4rem;">
         <div class="grad">
@@ -155,14 +159,11 @@
     </section>
 
     <script>
-        hambar = document.querySelector(".hambar");
-        hambar.onclick = function () {
-            navbar = document.querySelector(".menu");
-            navbar.classList.toggle("active");
-        }
-        document.getElementById('go-back').addEventListener('click', () => {
-            history.back();
-        });
+        const button = document.querySelector('.close');
+        button.addEventListener('click', () => {
+            const alert = document.querySelector('.alert');
+            alert.style.display = 'none';
+        })
     </script>
 </body>
 
